@@ -11,7 +11,7 @@ class Solution {
         while (l < n && r < m) {
             if (players[l] <= trainers[r]) {
                 l++;
-                res++;
+                res++;1
             }
             r++;
         }
